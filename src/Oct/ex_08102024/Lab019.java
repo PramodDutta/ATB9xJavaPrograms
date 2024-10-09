@@ -11,7 +11,7 @@ public class Lab019 {
 
         double d = 118.9876543;
 
-        // Non primitive Data Types . Arrays, Class, Enum....
+        // Non-primitive Data Types . Arrays, Class, Enum....
         String name = "Pramod";
 
     }
