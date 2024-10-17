@@ -13,6 +13,7 @@ public class Lab065_Scanner {
 
         System.out.println(age > 25 ? "Allowed to Goa" : "Not Allowed");
 
+        String username = scanner.next();
 
         scanner.close();
 
