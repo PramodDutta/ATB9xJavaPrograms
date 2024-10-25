@@ -19,7 +19,7 @@ public class Lab117 {
         //  int -> variable result ->
 
         // Step 2 - Rough logic -> Create functions
-        // function -> typr 4th - with return and with arguments/ parameters
+        // function -> type 4th - with return and with arguments/ parameters
 
 
         // Step 3 - Write the code and Find and Fix  -> Edge Cases
@@ -37,6 +37,9 @@ public class Lab117 {
         int result_sub = sub_of_numbers(a, b);
         System.out.println("Sub is -> " + result_sub);
 
+        int result_div = div_of_numbers(a, b);
+        System.out.println("Div is -> " + result_div);
+
         int result_mul = mul_of_numbers(a, b);
         System.out.println("Mul is -> " + result_mul);
 
@@ -46,6 +49,13 @@ public class Lab117 {
 
         scanner.close();
 
+    }
+
+    static int div_of_numbers(int a, int b) {
+        if (b == 0) {
+            System.out.println("Not allowed");
+        }
+        return a / b;
     }
 
     static int modulus_of_numbers(int a, int b) {
