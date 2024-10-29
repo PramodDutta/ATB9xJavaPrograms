@@ -18,7 +18,8 @@ public class Lab130_Arrays_UserInput {
         System.out.println(" --- ");
         // Print the numbers entered by the user
         System.out.println("The numbers are:");
-        for (int i = 0; i < numbers.length; i++) {
+//        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < size; i++) {
             System.out.println(numbers[i]);
         }
 
