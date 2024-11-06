@@ -7,6 +7,8 @@ public class Lab144_Constructors_P3 {
         Scanner sc = new Scanner(System.in);
 
         Car3 t1 = new Car3("tesla");
+
+        t1.model = "TUV400";
         System.out.println(t1.model);
         System.out.println(t1.year);
 
