@@ -20,4 +20,10 @@ public class TestCase1 extends BaseClass{
         System.out.println("Own Logic");
         super.setBrowser(browser, isAuth);
     }
+
+
+    @Override
+    public String toString() {
+        return "TestCase1{}";
+    }
 }
