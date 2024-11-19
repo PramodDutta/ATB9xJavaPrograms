@@ -9,6 +9,7 @@ public class Lab200_ArrayList {
 
         List list = new ArrayList();
         list.add("1"); // 0
+        list.add("1"); // 0
         list.add("2");  // 1
         list.add("3"); // 2
         list.add("3");  //3
